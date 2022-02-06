@@ -1,7 +1,7 @@
 name: 'Acción de repetición con JavaScript'
 author: 'Dumitru'
 description: 'Repite un número de veces el texto indicado'
- 
+
 inputs:
   input_text:
     description: 'El texto que queremos repetir varias veces'
@@ -10,7 +10,7 @@ inputs:
     description: 'Número de veces que queremos que aparezca el texto'
     required: false
     default: '1'
- 
+
 outputs:
   output_text:
     description: 'El texto repetido el número de veces indicado'
@@ -18,7 +18,7 @@ outputs:
 runs:
   using: 'node12'
   main: 'src/main.js'
- 
+
 branding:
   icon: 'rotate-cw'
   color: 'yellow'
