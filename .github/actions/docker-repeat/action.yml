@@ -17,7 +17,7 @@ outputs:
   
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'dockerfile'
 
 branding:
   icon: 'rotate-cw'
