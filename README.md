@@ -1,2 +1,2 @@
 # project-test-github
-pues eso, probnado a ver que pasa
+pues eso, probando a ver que pasa
