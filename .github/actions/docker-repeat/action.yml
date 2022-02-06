@@ -19,7 +19,7 @@ outputs:
 
 runs: 
     using: 'docker'
-    image: 'Dockerfile'
+    image: 'dockerfile'
 
 # Aqui acaban los valores de docker o Js
 branding:
