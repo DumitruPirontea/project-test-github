@@ -1,0 +1,27 @@
+name: 'Acción de repetición'
+author: 'Dumitru'
+description: 'Repite un numero de veces el texto indicado'
+
+inputs:
+    input_text:
+        description: 'El texto que queremos repetir varias veces'
+        required: true
+    num_of_repeats:
+        description: 'Numero de veces que queremos que aparezca el texto'
+        required: false
+        default: '1'
+
+outputs:
+    output_text:
+        description: 'El texto repetido el numero de veces indicado'
+
+# Aqui van los valores especificos para configurar docker o JS
+
+runs: 
+    using: 'docker'
+    image: 'Dockerfile'
+
+# Aqui acaban los valores de docker o JS
+branding:
+    icon: 'rotate-CW'
+    color: 'blue'
