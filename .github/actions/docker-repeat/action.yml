@@ -21,7 +21,7 @@ runs:
     using: 'docker'
     image: 'Dockerfile'
 
-# Aqui acaban los valores de docker o JS
+# Aqui acaban los valores de docker o Js
 branding:
     icon: 'rotate-CW'
     color: 'blue'
